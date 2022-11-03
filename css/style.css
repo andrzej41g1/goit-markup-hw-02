@@ -1,0 +1,99 @@
+:root {
+    --main-font: font-family: "Roboto", sans-serif;
+    --secondary-font:font-family: 'Raleway', sans-serif;
+    --mein-color:#2196F3;
+}
+body{
+    font-family: var(--main-font);
+}
+/*COMPONENT*/
+.logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.logo__2{
+   color:#2196F3;
+}
+/*HEADER*/
+.navigateon__list__link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    color: #212121;
+    cursor: pointer;
+}
+.navigateon__list__link:hover,
+.navigateon__list__link:focus{
+    color:var(--mein-color);
+}
+.address__link{
+    font-style: normal;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.klick__button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+    cursor: pointer;
+}
+.klick__button:hover,
+.klick__button:focus{
+    color:#ffffff;
+    background-color: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+/*END HEADER*/
+/*MAIN*/
+.name__img{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.name__comment{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*END MAIN*/
+/*FOOTER*/
+.address{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714  §;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer{
+    background-color:#2F303A;
+}
+/*END FOOTER*/
