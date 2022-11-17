@@ -1,3 +1,6 @@
+header {
+  display: flex;
+}
 :root {
   /* 
        --main-font:font-family: 'Roboto', sans-serif;
@@ -8,7 +11,10 @@ body {
   font-family: var(--main-font);
 }
 /*COMPONENT*/
-.logo__black {
+.container {
+  width: 1200px;
+}
+.logo--black {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -16,8 +22,9 @@ body {
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: #000000;
+  text-decoration: none;
 }
-.logo__white {
+.logo--white {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -25,12 +32,16 @@ body {
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: #ffffff;
+  text-decoration: none;
 }
-.logo__blue {
+.logo--blue {
   color: #2196f3;
 }
 /*HEADER*/
-.navigation__list__link {
+.test {
+  display: flex;
+}
+.navigation--text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -39,14 +50,18 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
   cursor: pointer;
+  text-decoration: none;
 }
-.navigation__list__link:hover,
-.navigation__list__link:focus,
-.address__link:hover,
-.address__link:focus {
+.navigation--list {
+  list-style: none;
+}
+.navigation--text:hover,
+.navigation--text:focus,
+.address--link:hover,
+.address--link:focus {
   color: var(--mein-color);
 }
-.address__link {
+.address--link {
   font-style: normal;
   font-family: "Roboto";
   font-style: normal;
@@ -55,8 +70,9 @@ body {
   line-height: 1.142;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
 }
-.klick__button {
+.klick--button {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -67,8 +83,11 @@ body {
   color: #000000;
   cursor: pointer;
 }
-.klick__button:hover,
-.klick__button:focus {
+.klick--list {
+  list-style: none;
+}
+.klick--button:hover,
+.klick--button:focus {
   color: #ffffff;
   background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -77,7 +96,10 @@ body {
 }
 /*END HEADER*/
 /*MAIN*/
-.name__img {
+.klick {
+  display: flex;
+}
+.name--img {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -86,7 +108,10 @@ body {
   letter-spacing: 0.06em;
   color: #212121;
 }
-.name__comment {
+.list--img {
+  list-style: none;
+}
+.name--comment {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -108,5 +133,6 @@ body {
 }
 .footer {
   background-color: #2f303a;
+  display: flex;
 }
 /*END FOOTER*/
