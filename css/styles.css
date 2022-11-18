@@ -147,7 +147,24 @@ body {
 
   border: 1px solid #ececec;
 }
+.navigation {
+  display: flex;
+  display: flex;
+  font-size: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 50;
+  width: 1600;
+}
 
+.navigation--text {
+  display: flex;
+  font-size: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 50;
+  width: 1600;
+}
 /*width: 1600px;
   height: 0px;
   left: 0px;
